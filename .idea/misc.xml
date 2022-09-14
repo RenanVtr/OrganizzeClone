@@ -3,10 +3,17 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
-        <entry key="..\:/Users/supor/AndroidStudioProjects/OrganizzeClone/app/src/main/res/layout/intro_1.xml" value="0.14427083333333332" />
-        <entry key="..\:/Users/supor/AndroidStudioProjects/OrganizzeClone/app/src/main/res/layout/intro_2.xml" value="0.17239583333333333" />
-        <entry key="..\:/Users/supor/AndroidStudioProjects/OrganizzeClone/app/src/main/res/layout/intro_3.xml" value="0.17239583333333333" />
-        <entry key="..\:/Users/supor/AndroidStudioProjects/OrganizzeClone/app/src/main/res/layout/intro_4.xml" value="0.17239583333333333" />
+        <entry key="..\:/Users/supor/AndroidStudioProjects/OrganizzeClone/app/src/main/res/drawable/account_icon.xml" value="0.2485" />
+        <entry key="..\:/Users/supor/AndroidStudioProjects/OrganizzeClone/app/src/main/res/drawable/cadeado_icon.xml" value="0.2485" />
+        <entry key="..\:/Users/supor/AndroidStudioProjects/OrganizzeClone/app/src/main/res/drawable/email_icon.xml" value="0.2485" />
+        <entry key="..\:/Users/supor/AndroidStudioProjects/OrganizzeClone/app/src/main/res/layout/activity_cadastro.xml" value="0.25" />
+        <entry key="..\:/Users/supor/AndroidStudioProjects/OrganizzeClone/app/src/main/res/layout/activity_login.xml" value="0.25" />
+        <entry key="..\:/Users/supor/AndroidStudioProjects/OrganizzeClone/app/src/main/res/layout/activity_main.xml" value="0.25" />
+        <entry key="..\:/Users/supor/AndroidStudioProjects/OrganizzeClone/app/src/main/res/layout/intro_1.xml" value="0.25" />
+        <entry key="..\:/Users/supor/AndroidStudioProjects/OrganizzeClone/app/src/main/res/layout/intro_2.xml" value="0.25" />
+        <entry key="..\:/Users/supor/AndroidStudioProjects/OrganizzeClone/app/src/main/res/layout/intro_3.xml" value="0.25" />
+        <entry key="..\:/Users/supor/AndroidStudioProjects/OrganizzeClone/app/src/main/res/layout/intro_4.xml" value="0.25" />
+        <entry key="..\:/Users/supor/AndroidStudioProjects/OrganizzeClone/app/src/main/res/layout/intro_cadastro.xml" value="0.25" />
       </map>
     </option>
   </component>

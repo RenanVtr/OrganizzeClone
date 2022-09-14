@@ -1,14 +1,17 @@
 plugins {
     id 'com.android.application'
-    // Add the Google services Gradle plugin
+    // Add the Google services Gradle plugin - parametro de configuração do Firebase
     id 'com.google.gms.google-services'
 }
 
 android {
     compileSdk 32
+
+    //dataBinding - parametro de configuração do MaterialIntro
     dataBinding {
         enabled = true
     }
+
     defaultConfig {
         applicationId "com.example.organizzeclone"
         minSdk 21
@@ -39,7 +42,7 @@ dependencies {
     testImplementation 'junit:junit:4.13.2'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'
-    implementation platform('com.google.firebase:firebase-bom:30.3.2')
-    implementation 'com.google.firebase:firebase-auth'
-    implementation 'com.heinrichreimersoftware:material-intro:2.0.0'
+    implementation platform('com.google.firebase:firebase-bom:30.3.2') //Implementação do Firebase Bom
+    implementation 'com.google.firebase:firebase-auth' //Implementação do Firebase Auth
+    implementation 'com.heinrichreimersoftware:material-intro:2.0.0' //Implementação do MaterialIntro
 }

@@ -16,8 +16,16 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Organize suas contas de onde você estiver"
+        android:padding="10sp"
+        android:text="Nunca mais esqueça de pagar uma conta"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Receba alertas quando quiser"
+        android:textAlignment="center" />
 </LinearLayout>

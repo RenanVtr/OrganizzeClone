@@ -16,8 +16,16 @@
         android:id="@+id/textView"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Organize suas contas de onde você estiver"
+        android:padding="10sp"
+        android:text="Organize suas contas\n de onde você estiver"
         android:textAlignment="center"
         android:textSize="18sp"
         android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Simples e rápido"
+        android:textAlignment="center" />
 </LinearLayout>
