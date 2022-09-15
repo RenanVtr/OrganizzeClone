@@ -2,15 +2,21 @@
     <!-- Base application theme. -->
     <style name="Theme.OrganizzeClone" parent="Theme.MaterialComponents.DayNight.DarkActionBar">
         <!-- Primary brand color. -->
-        <item name="colorPrimary">@color/purple_200</item>
-        <item name="colorPrimaryVariant">@color/purple_700</item>
-        <item name="colorOnPrimary">@color/black</item>
+        <item name="colorPrimary">@color/p1_azul_escuro</item>
+        <item name="colorPrimaryVariant">@color/p1_cinza_escuro</item>
+        <item name="colorOnPrimary">@color/p1_azul_claro</item>
+        <item name="colorAccent">@color/p1_verde_limao</item>
         <!-- Secondary brand color. -->
         <item name="colorSecondary">@color/teal_200</item>
         <item name="colorSecondaryVariant">@color/teal_200</item>
-        <item name="colorOnSecondary">@color/black</item>
+        <item name="colorOnSecondary">#5A5A5A</item>
         <!-- Status bar color. -->
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
+    </style>
+    <style name="Theme.OrganizeCustom.Dark" parent="Theme.AppCompat.NoActionBar">
+        <item name="android:background">@color/p1_cinza_escuro</item>
+        <item name="buttonTint">@color/p1_verde_limao</item>
+        <item name="android:textColor">@color/p1_azul_claro</item>
     </style>
 </resources>

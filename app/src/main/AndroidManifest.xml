@@ -13,16 +13,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OrganizzeClone"
         tools:targetApi="31">
+
+        //TELA DE CADASTRO
         <activity
             android:name=".activity.CadastroActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.OrganizeCustom.Light"
+            />
+
+        //TELA DE LOGIN
         <activity
             android:name=".activity.LoginActivity"
-            android:exported="false" />
+            android:exported="false"
+            android:theme="@style/Theme.OrganizeCustom.Light"
+            />
+
+        /TELA DE INTRO
         <activity
             android:name=".activity.MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.Intro">            //configuração de Material Intro
+            android:theme="@style/Theme.Intro.Custom"
+            >            //configuração de Material Intro
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
