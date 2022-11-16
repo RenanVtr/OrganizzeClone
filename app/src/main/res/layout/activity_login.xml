@@ -77,7 +77,7 @@
         android:background="@color/azul"
         android:backgroundTintMode="src_in"
         android:text="Entrar"
-        android:textColor="@color/white"
+        android:textColor="#4A148C"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.5"
