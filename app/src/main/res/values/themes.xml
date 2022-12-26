@@ -14,14 +14,25 @@
         <item name="android:statusBarColor" tools:targetApi="l">?attr/colorPrimaryVariant</item>
         <!-- Customize your theme here. -->
     </style>
+
     <style name="Theme.OrganizeCustom.Light" parent="Theme.AppCompat.NoActionBar">
         <item name="android:background">@color/white</item>
         <item name="android:textColor">@color/p1_cinza_escuro</item>
     </style>
+
     <style name="Theme.Intro.Custom" parent="Theme.AppCompat.NoActionBar">
         <item name="android:background">@android:color/holo_blue_bright</item>
         <item name="android:textColor">@color/p1_azul_escuro</item>
         <item name="android:windowBackground">@android:color/transparent</item>
         <item name="android:windowIsTranslucent">true</item>
     </style>
+
+    <style name="Theme.OrganizzeClone.NoActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+    <style name="Theme.OrganizzeClone.AppBarOverlay" parent="ThemeOverlay.AppCompat.Dark.ActionBar" />
+
+    <style name="Theme.OrganizzeClone.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
 </resources>

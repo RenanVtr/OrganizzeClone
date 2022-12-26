@@ -12,27 +12,27 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.OrganizzeClone"
         tools:targetApi="31">
-
-
+        <activity
+            android:name=".PrincipalActivity"
+            android:exported="false"
+            android:label="@string/title_activity_principal"
+            android:theme="@style/Theme.OrganizzeClone.NoActionBar">
+            <meta-data
+                android:name="android.app.lib_name"
+                android:value="" />
+        </activity>
         <activity
             android:name=".activity.CadastroActivity"
             android:exported="false"
-            android:theme="@style/Theme.OrganizeCustom.Light"
-            />
-
-
+            android:theme="@style/Theme.OrganizeCustom.Light" />
         <activity
             android:name=".activity.LoginActivity"
             android:exported="false"
-            android:theme="@style/Theme.OrganizeCustom.Light"
-            />
-
-
+            android:theme="@style/Theme.OrganizeCustom.Light" />
         <activity
             android:name=".activity.MainActivity"
             android:exported="true"
-            android:theme="@style/Theme.Intro.Custom"
-            >
+            android:theme="@style/Theme.Intro.Custom">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 

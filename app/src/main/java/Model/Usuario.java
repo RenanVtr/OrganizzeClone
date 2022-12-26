@@ -2,9 +2,12 @@ package Model;
 
 public class Usuario {
 
+
+    //Atributos
     private String nome;
     private String email;
     private String senha;
+
 
     public Usuario() {
 
